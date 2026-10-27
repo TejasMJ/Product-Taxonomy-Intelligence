@@ -1,0 +1,106 @@
+
+# ==========================================
+# Virtual Environment
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Python Cache and Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+.profile_default/
+
+# ==========================================
+# IDE and Editor Settings
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ==========================================
+# Model Artifacts
+# ==========================================
+models/*.pkl
+models/*.pickle
+models/*.joblib
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.onnx
+models/*.safetensors
+
+# ==========================================
+# NLP Artifacts
+# ==========================================
+models/tokenizers/
+models/vectorizers/
+models/embeddings/
+models/checkpoints/
+
+# ==========================================
+# Generated Data
+# ==========================================
+data/processed/
+data/interim/
+
+# ==========================================
+# MLflow Tracking
+# ==========================================
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+*.db-shm
+*.db-wal
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# Build and Distribution
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Testing and Tool Cache
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
